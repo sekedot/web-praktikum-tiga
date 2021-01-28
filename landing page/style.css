@@ -1,0 +1,70 @@
+@media only screen and (max
+width: 320px) {
+
+}
+/* navbar */
+.navbar-brand {
+    font-family: caveat;
+    font-size: 32px;
+    
+}
+
+/* jumbotron */
+.jumbotron{
+    background-image: url(gambar/backgroundjadi.jpeg);
+    background-size: cover;
+    height: 720px;
+}
+
+
+.logo{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+
+    background: url(logo.jpg);
+    border-radius: 70px 70px 70px 70px;
+    
+
+}
+
+.jumbotron .display-4{
+    color: white;
+    text-align: center;
+    margin-top: 300px;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+footer {
+    margin: px;
+	padding: 30px;
+	background-color:#fd7506;
+	color:white;
+	text-align: center;
+    
+}
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+    .navbar, .nav-link{
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+    .nav-link{
+        text-transform: uppercase;
+        margin-right: 10px;
+        
+        
+        
+    }
+
+    .nav-link:hover {
+        border-bottom: 3px solid #fdfcfc;
+    }
+
+    .jumbotron{
+        margin-top: -75px;
+        font-family: caveat;
+    }
+}
